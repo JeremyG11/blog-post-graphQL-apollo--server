@@ -1,0 +1,53 @@
+# Ignore general system files
+Thumbs.db
+.DS_Store
+
+.env
+# Ignore user-specific files
+.vscode
+*.user
+
+# Ignore PowerShell output logs
+*.log
+*.psc1
+
+# Ignore PowerShell module cache
+__PSScriptRoot\module_cache
+
+# Ignore build artifacts
+bin
+obj
+
+# Ignore PowerShell session state files
+*.ps1xml
+*.clixml
+*.format.ps1xml
+*.cdxml
+*.pssc
+
+# Ignore test results
+TestResults
+
+# Ignore Visual Studio files
+.vs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+
+# Ignore NuGet package folders
+packages
+
+# Ignore JetBrains Rider IDE files
+.idea
+*.sln.iml
+
+# Ignore any secrets or sensitive data
+secrets.json
+
+# Ignore node_modules directory for frontend projects
+node_modules/
+
+# Ignore build artifacts
+dist/
